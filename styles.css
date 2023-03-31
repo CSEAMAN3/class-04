@@ -1,0 +1,91 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-style: 1.2rem;
+  margin-bottom: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+body > section {
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+}
+
+section section {
+  border: 2px solid purple;
+  background-color: lavender;
+}
+
+section section div {
+  border: 2px solid blue;
+  background-color: azure;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.none div {
+  display: none;
+}
+
+.inline div {
+  display: inline;
+}
+
+.inline-block div {
+  display: inline-block;
+}
+
+.float-left div {
+  float: left;
+}
+
+.float-right div {
+  float: right;
+}
+
+.together {
+  font-size: 1.2rem;
+}
+.span-inline {
+  color: red;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  margin: 10px 0;
+  display: inline-block;
+}

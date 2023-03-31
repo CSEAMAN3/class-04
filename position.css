@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+section {
+  border: 15px solid red;
+  width: 80%;
+  margin: 5rem auto 200px auto;
+  height: 40rem;
+  position: static;
+}
+
+article {
+  border: medium solid black;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#one {
+  position: relative;
+  background-color: linen;
+  width: 20%;
+  left: 100px;
+}
+
+#two {
+  position: absolute;
+  width: 50%;
+  background-color: lavenderblush;
+  top: 4rem;
+  right: 0;
+}
+
+#three {
+  background-color: beige;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+}
+
+#four {
+  background-color: lightcyan;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  /* z-index: 100; */
+}
